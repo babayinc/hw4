@@ -1,6 +1,5 @@
 require 'simple_f_w'
 
-
 class TestController < Controller
   def show
     response(:json, params)
