@@ -1,4 +1,4 @@
-require './source/simple_f_w/lib/simple_f_w/router'
+require './main'
 
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|

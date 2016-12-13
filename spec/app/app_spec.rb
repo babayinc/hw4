@@ -1,4 +1,6 @@
-RSpec.describe Router do
+require 'spec_helper'
+
+RSpec.describe 'app' do
   subject do
     Router.new do
       get '/test', ->(env) { [200, {}, ['get test']] }
